@@ -1,16 +1,6 @@
 # moka_xylophone
 
-A simple xylophone app using flutter and dart
+A simple xylophone app using flutter and dart. (To experiment w/ dart packages and dependencies)
+Press the colors buttons to play one of the seven sounds !
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![look of the app](https://scontent-cdt1-1.xx.fbcdn.net/v/t1.15752-9/109834306_597461521200136_7503601044231230302_n.png?_nc_cat=103&_nc_sid=b96e70&_nc_ohc=rJk0c89tfSAAX8yC6Ua&_nc_ht=scontent-cdt1-1.xx&oh=009a7c100dcf6e83f3bfea46b126b79c&oe=5F399242)
