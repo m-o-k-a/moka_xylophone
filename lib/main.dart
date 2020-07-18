@@ -11,14 +11,22 @@ class XylophoneApp extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         body: SafeArea(
-          child: Center(
-            child: FlatButton(
-              onPressed: () {player.play("note1.wav");},
-              child: Text("Note 1"),
-            ),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
+            children: <Widget>[
+              Expanded(child: FlatButton(onPressed: () {xylophoneSound(1);}, color: Colors.cyan[100],)),
+              Expanded(child: FlatButton(onPressed: () {xylophoneSound(2);}, color: Colors.cyan[200],)),
+              Expanded(child: FlatButton(onPressed: () {xylophoneSound(3);}, color: Colors.cyan[300],)),
+              Expanded(child: FlatButton(onPressed: () {xylophoneSound(4);}, color: Colors.cyan[400],)),
+              Expanded(child: FlatButton(onPressed: () {xylophoneSound(5);}, color: Colors.cyan[500],)),
+              Expanded(child: FlatButton(onPressed: () {xylophoneSound(6);}, color: Colors.cyan[600],)),
+              Expanded(child: FlatButton(onPressed: () {xylophoneSound(7);}, color: Colors.cyan[700],)),
+            ],
+          )
           ),
         ),
-      ),
     );
   }
+
+  void xylophoneSound(int i) => player.play("note"+i.toString()+".wav");
 }
